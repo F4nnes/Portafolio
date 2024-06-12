@@ -259,8 +259,28 @@ h3.hobbies__title {
 
 /* Experiencia Académica*/
 
-/* section.academic {} */
+section.academic {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaf2fd;
+}
 
+.academic__title{
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.58px;
+    align-self: center;
+    color: #464646;
+}
+
+.academic__courses{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
 /* experiencia*/
 
 /* section.experience {} */
