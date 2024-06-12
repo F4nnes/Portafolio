@@ -43,48 +43,130 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/*Sección Menu*/
+/*Contenedor Sección Menu*/
 
 .menu {
-    border: 2px solid red;
     background-color: white;
     display: flex;
+    width: fixed;
     flex-direction: row;
-    width: auto;
-    height: 88px;
+    gap: 30px;
+    padding: 0 32px 0 32px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*icono y nombre*/
 .menu__header {
-    border: 2px solid green;
     display: flex;
     align-items: center;
-
+    gap: 12px;
 }
 
+/*Contenedor seccion de navegacion info personal*/
 .menu__list {
-    border: 2px solid blue;
     display: flex;
-    align-items: center;
-
+    gap: 32px;
+    align-content: flex-end;
 }
-
-.menu__list__item__contato {
-    display: flex;
-    border: 2px solid black;
-    justify-content: flex-end;
-}
-
 
 /*correo electronico*/
+.menu__list__item__contato {
+    display: flex;
+    font-weight: 700;
+}
 
 
 /*Sección Title*/
+.title__div {
+    background-color: white;
+    display: flex;
+    width: fixed;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px 32px 10px 32px;
+}
 
 
-/*Sección About*/
+.title__profile {
+    width: 368px;
+    height: 368px;
+    gap: 25px;
+}
 
-section.about {}
+div.title__container {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 754px;
+    height: 246px;
+}
+
+.title__bio {
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.title__subsection {
+    display: flex;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.title__network {
+    display: flex;
+    gap: 32px;
+}
+
+/*Sección About
+    background-color: #EAF2FD;
+    display: flex;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;*/
+
+section.about {
+    border: 2px solid blue;
+    background-color: #eaf2fd;
+    display: flex;
+    padding: 64px;
+    align-items: center;
+    
+}
+
+.about__container{
+    border: 2px solid red;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    color: #464646;
+    width: 754px;
+    height: 246px;
+}
+
+.about__title {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 0 0 ;
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 37.57px;
+}
+
+.about__paragraph {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+}
+
+.firma {
+    display: flex;
+    width: 140px;
+    height: 52px;
+}
 
 /*Sección Hobbies*/
 
