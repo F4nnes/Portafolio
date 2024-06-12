@@ -4,25 +4,29 @@ en las secciones señaladas */
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root{
+:root {
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #b5b2d3;
-   --cor-de-link: #000;
+    --cor-de-fundo: #b5b2d3;
+    --cor-de-link: #000;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
 }
-ol, ul,li {
+
+ol,
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--cor-de-link);
 }
@@ -41,110 +45,66 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
-    display: flex;
-    gap: 20px;
-    width: auto;
-    height: 45px;
-    justify-content: space-evenly;
-    background-color: white;
-}
-/*icono y nombre*/
-.menu__header{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-
-/*barra de navegacion*/
-nav{
-    display: flex;
-    gap: 25px;
-
-}
-
-ul.menu__list{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-/*correo electronico*/
-li.menu__list__item__contato{
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-}
-
-/*Sección Title*/
-
-section.title{
+.menu {
     border: 2px solid red;
+    background-color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    height: 88px;
 }
 
-div.title__div{
-    border: 2px solid purple;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-    
-
-.title__profile{
-    border: 2px solid blue;
-    display: flex;
-    width: 368px;
-    
-    
-}
-
-div.title__container{
+/*icono y nombre*/
+.menu__header {
     border: 2px solid green;
     display: flex;
+    align-items: center;
+
 }
+
+.menu__list {
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu__list__item__contato {
+    display: flex;
+    border: 2px solid black;
+    justify-content: flex-end;
+}
+
+
+/*correo electronico*/
+
+
+/*Sección Title*/
 
 
 /*Sección About*/
 
-section.about{
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-
-}
+section.about {}
 
 /*Sección Hobbies*/
 
-section.hobbies{
-    
-}
+section.hobbies {}
 
 /* Experiencia Académica*/
 
-section.academic{
-
-}
+section.academic {}
 
 /* experiencia*/
 
-section.experience{
-
-}
+section.experience {}
 
 /*Contacto*/
 
-section.formcontato{
-
-}
+section.formcontato {}
 
 /*footeer*/
 
-section.footer{
-   
-}
+section.footer {}
 
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
@@ -153,39 +113,39 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Tablet*/
 @media (min-width: 768px) {
 
-/* Menú */
+    /* Menú */
 
-/*title*/
+    /*title*/
 
-/*Skills*/
+    /*Skills*/
 
-/*Hobbies*/
+    /*Hobbies*/
 
-/*Formación Académica*/
+    /*Formación Académica*/
 
-/*Experiencia Profesional*/
+    /*Experiencia Profesional*/
 
 }
 
 /*Mobile*/
 @media (min-width: 425px) {
 
-/*Menu*/
+    /*Menu*/
 
-/*Titulo*/
+    /*Titulo*/
 
-/*Sección sobre mi*/
+    /*Sección sobre mi*/
 
-/*Skills*/
+    /*Skills*/
 
-/*Hobbies*/
- 
-/*Formación Académica*/
+    /*Hobbies*/
 
-/*Experiencia Profesional*/
+    /*Formación Académica*/
 
- /*Contacto*/
+    /*Experiencia Profesional*/
 
-/*Footer*/
+    /*Contacto*/
+
+    /*Footer*/
 
 }
