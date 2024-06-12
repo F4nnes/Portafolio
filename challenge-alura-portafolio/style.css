@@ -96,7 +96,6 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 div.title__container {
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     width: 754px;
@@ -128,7 +127,6 @@ div.title__container {
     gap: 10px;*/
 
 section.about {
-    border: 2px solid blue;
     background-color: #eaf2fd;
     display: flex;
     padding: 64px;
@@ -137,7 +135,6 @@ section.about {
 }
 
 .about__container{
-    border: 2px solid red;
     display: flex;
     align-content: center;
     flex-direction: column;
