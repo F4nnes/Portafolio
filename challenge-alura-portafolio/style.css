@@ -262,7 +262,6 @@ h3.hobbies__title {
 }
 
 /* Experiencia Académica*/
-
 section.academic {
     border: 2px solid red;
     display: flex;
@@ -304,14 +303,10 @@ section.academic {
     background-color: #ffffff;
     width: 368px;
     height: 286px;
-
-
-
 }
 
 .academic__courses__item__img {
     border: 2px solid purple;
-
     display: flex;
     width: 190;
     height: 130px;
