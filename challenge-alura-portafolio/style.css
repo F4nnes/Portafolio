@@ -262,13 +262,13 @@ h3.hobbies__title {
 }
 
 /* Experiencia Académica*/
+/* titulo de seccion */
 section.academic {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     background-color: #eaf2fd;
     width: auto;
-    height: 581px;
+    height: 500px;
     padding: 46px;
     gap: 16px;
 }
@@ -282,51 +282,57 @@ section.academic {
     color: #464646;
 }
 
+/* contenedor */
 .academic__courses {
-    border: 2px solid blue;
     display: flex;
+    justify-content: center;
     align-self: center;
     gap: 16px;
 }
 
-.academic__courses__box {
-    border: 2px solid black;
+.academic__courses__list {
     display: flex;
+    flex-direction: column;
+}
+
+.academic__courses__box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     width: 368px;
     height: 347px;
-
+    padding-top: 10px;
 }
 
 .image {
-    border: 2px solid orange;
     display: flex;
-    background-color: #ffffff;
-    width: 368px;
-    height: 286px;
 }
 
-.academic__courses__item__img {
-    border: 2px solid purple;
+.texto{
     display: flex;
-    width: 190;
-    height: 130px;
-
+    flex-direction: column;
+    justify-content: end;
 }
-
 .academic__courses__item__title {
     display: flex;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 25.83px;
+    width: 257px;
+    height: 26px;
 }
 
 .academic__courses__item__subtitle {
-    border: 2px solid green;
     display: flex;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18.78px;
-    color: #464646;
+    flex-direction: column;
+    width: 250px;
+    height: 19px;
+}
+.__fad{
+    display: flex;
+    padding-top: 50px;
+}
+
+._fad{
+    display: flex;
+    padding-top: 30px;
 }
 
 /* experiencia*/
