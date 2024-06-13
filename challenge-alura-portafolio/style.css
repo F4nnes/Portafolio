@@ -337,7 +337,26 @@ section.academic {
 
 /* experiencia*/
 
-/* section.experience {} */
+section.experience {
+    background-color: #eaf2fd;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+h2.experience__section__title{
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.58px;
+    align-self: center;
+    color: #464646;
+}
+
+.experiencie__box{
+    border: 2px solid red;
+}
+
 
 /*Contacto*/
 
