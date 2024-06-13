@@ -54,6 +54,8 @@ https://en.bem.info/methodology/quick-start/*/
     padding: 0 32px 0 32px;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 /*icono y nombre*/
@@ -171,6 +173,7 @@ section.skills {
     background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
+    padding: 32px;
 }
 
 /*titulo skill*/
@@ -198,7 +201,7 @@ h3.skills__title {
     width: 176px;
     height: 174px;
     gap: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
 }
 
 .skills__img {
@@ -218,6 +221,7 @@ section.hobbies {
     background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
+    padding: 32px;
 }
 
 h3.hobbies__title {
@@ -242,7 +246,7 @@ h3.hobbies__title {
     width: 176px;
     height: 174px;
     gap: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
 }
 
 .hobbies__img {
@@ -264,23 +268,72 @@ section.academic {
     display: flex;
     flex-direction: column;
     background-color: #eaf2fd;
+    width: auto;
+    height: 581px;
+    padding: 46px;
+    gap: 16px;
 }
 
-.academic__title{
+.academic__title {
     display: flex;
     font-size: 32px;
     font-weight: 700;
-    line-height: 37.58px;
+    line-height: 37.57px;
     align-self: center;
     color: #464646;
 }
 
-.academic__courses{
+.academic__courses {
     border: 2px solid blue;
     display: flex;
-    justify-content: center;
+    align-self: center;
     gap: 16px;
 }
+
+.academic__courses__box {
+    border: 2px solid black;
+    display: flex;
+    width: 368px;
+    height: 347px;
+
+}
+
+.image {
+    border: 2px solid orange;
+    display: flex;
+    background-color: #ffffff;
+    width: 368px;
+    height: 286px;
+
+
+
+}
+
+.academic__courses__item__img {
+    border: 2px solid purple;
+
+    display: flex;
+    width: 190;
+    height: 130px;
+
+}
+
+.academic__courses__item__title {
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+}
+
+.academic__courses__item__subtitle {
+    border: 2px solid green;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    color: #464646;
+}
+
 /* experiencia*/
 
 /* section.experience {} */
