@@ -344,7 +344,7 @@ section.experience {
     padding: 32px;
 }
 
-h2.experience__section__title{
+.experience__section__title{
     display: flex;
     font-size: 32px;
     font-weight: 700;
@@ -354,13 +354,62 @@ h2.experience__section__title{
 }
 
 .experiencie__box{
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
 }
 
+.experience__img{
+    display: flex;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.experience__title{
+    color: #464646;
+    font-size: 22px;
+    /* font-weight: 700; */
+    /* line-height: 25.83px; */
+}
+
+.experience__text{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    /* line-height: 18.78; */
+}
+
+.experiencia__botao--repo{
+    padding: 16px;
+    gap: 10px;
+    color: #2a7ae4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.experience__botao--demo{
+    border: 1px solid #2a7ae4;
+    background-color: #2a7ae4;
+    padding: 16px;
+    gap: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 /*Contacto*/
 
-/* section.formcontato {} */
+.formcontato__contacto{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
 
 /*footeer*/
 
