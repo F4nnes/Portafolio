@@ -356,6 +356,7 @@ section.experience {
 .experiencie__box{
     display: flex;
     justify-content: center;
+    margin-bottom: 64px;
 }
 
 .experience__img{
