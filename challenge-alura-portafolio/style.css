@@ -461,6 +461,7 @@ section.formcontato {
     font-size: 12px;
     height: 40px;
     outline: none;
+    padding: 5px;
 }
 
 
@@ -469,7 +470,7 @@ section.formcontato {
     font-size: 12px;
     height: 133px;
     outline: none;
-
+    padding: 10px;
 }
 
 .formcontato__botao {
@@ -489,21 +490,30 @@ section.formcontato {
 section.footer {
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     background-color: white;
     height: 102px;
 }
 
 .footer__rodape {
-    border: 2px solid blue;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     width: 229px;
     height: 38px;
     color: #464646;
+}
+
+.rodape__text {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.rodape__text__fecha {
+    display: flex;
+    margin-top: 0;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
