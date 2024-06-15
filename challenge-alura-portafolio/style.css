@@ -414,7 +414,6 @@ section.formcontato {
 }
 
 .formcontato__contacto {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     padding-top: 64px;
@@ -424,49 +423,84 @@ section.formcontato {
     height: 660px;
 }
 
-.formcontato__img{
+.formcontato__img {
     width: 464px;
     height: 593px;
 }
 
 .formcontato__text {
-    border: 2px solid orange;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
 }
 
-.formcontato__title{
+.formcontato__title {
+    align-self: flex-start;
     font-size: 32px;
+    margin: 0 0 16px 0;
 }
 
-.formcontato__subtext{
+.formcontato__subtext {
+    align-self: flex-start;
     color: #464646;
     font-weight: 500;
     font-size: 16px;
-    
+    margin: 0 0 0 0;
 }
 
 .formcontato__form {
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     gap: 32px;
     color: #464646;
+    margin-top: 16px;
 }
 
 .formcontato__input {
     border: none;
+    font-size: 12px;
+    height: 40px;
+    outline: none;
 }
 
 
 .formcontato__textarea {
     border: none;
+    font-size: 12px;
+    height: 133px;
+    outline: none;
+
+}
+
+.formcontato__botao {
+    border: 1px solid #2a7ae4;
+    background-color: #2a7ae4;
+    padding: 16px;
+    gap: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    width: 144px;
+    height: 51px;
 }
 
 /*footeer*/
 
-/* section.footer {} */
+section.footer {
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    background-color: white;
+    height: 102px;
+}
+
+.footer__rodape {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
 
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
