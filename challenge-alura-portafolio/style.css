@@ -525,15 +525,90 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     /* Menú */
 
+    .menu {
+        display: flex;
+    }
+
+    .menu__header {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__list__item {
+        display: none;
+    }
+
     /*title*/
+    .title__div {
+        display: flex;
+    }
 
-    /*Skills*/
+    .title__profile {
+        width: 146px;
+        height: 146px;
+        gap: 25px;
+    }
 
-    /*Hobbies*/
+    div.title__container {
+        display: flex;
+        flex-direction: column;
+        width: 524px;
+        height: 130px;
+    }
+    .title__bio {
+        display: flex;
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .title__subsection {
+        display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
 
-    /*Formación Académica*/
+    .title__network {
+        display: flex;
+        margin-top: 10px;
+    }
+}
 
-    /*Experiencia Profesional*/
+/*Skills*/
+
+section.skills{
+    display: flex;
+    
+}
+
+h3.skills__title {
+    font-size: 22px;
+}
+
+.skills__box{
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    width: 224px;
+    height: 118px;
+    margin-bottom: 16px;
+}
+
+.skills__img {
+    display: flex;
+    margin-bottom: 0;
+}
+.skills__name {
+    font-size: 16px;
+}
+/*Hobbies*/
+
+
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
 
 }
 
@@ -541,6 +616,19 @@ Utiliza las referencias de los breakpoints @media abajo */
 @media (min-width: 425px) {
 
     /*Menu*/
+    .menu {
+        display: flex;
+
+    }
+
+    .menu__header {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__list__item {
+        display: none;
+    }
 
     /*Titulo*/
 
